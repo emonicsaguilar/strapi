@@ -23,19 +23,30 @@
       "required": true
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "readOnly": {
       "type": "boolean",
       "default": true,
       "required": false
+    },
+    "popular": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.review"
     }
   }
 }

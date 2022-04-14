@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_basic_reviews",
+  "info": {
+    "displayName": "review",
+    "icon": "file-signature",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "author": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "float",
+      "default": 0
+    },
+    "published_on": {
+      "type": "datetime"
+    }
+  }
+}
